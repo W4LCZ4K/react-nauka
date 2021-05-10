@@ -13,10 +13,10 @@ export default function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/">dominik ssie</Link>
+              <Link to="/">dominik</Link>
             </li>
             <li>
-              <Link to="/about">Mój link</Link>
+              <Link to="/about">The best</Link>
             </li>
             <li>
               <Link to="/users">Users</Link>
@@ -51,5 +51,5 @@ function About() {
 }
 
 function Users() {
-  return <h2>Users</h2>;
+  return <h2>asdsas</h2>;
 }
