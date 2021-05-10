@@ -13,28 +13,27 @@ export default function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/">dominik</Link>
+              <Link to="/Dominik">Dominik</Link>
             </li>
             <li>
-              <Link to="/about">The best</Link>
+              <Link to="/Bartek">Bartek</Link>
             </li>
             <li>
-              <Link to="/users">Users</Link>
+              <Link to="/Dawid">Dawid</Link>
             </li>
           </ul>
         </nav>
 
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
+      
         <Switch>
-          <Route path="/about">
-            <About />
+          <Route path="/Dominik">
+           
           </Route>
-          <Route path="/users">
-            <Users />
+          <Route path="/Bartek">
+           
           </Route>
-          <Route path="/">
-            <Home />
+          <Route path="/Dawid">
+          
           </Route>
         </Switch>
       </div>
@@ -42,14 +41,3 @@ export default function App() {
   );
 }
 
-function Home() {
-  return <h2>Home</h2>;
-}
-
-function About() {
-  return <h2>asd</h2>;
-}
-
-function Users() {
-  return <h2>asdsas</h2>;
-}
