@@ -5,13 +5,16 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Huh from "./Bartek.js"
+import "./App.css";
 
 export default function App() {
   return (
     <Router>
       <div>
+        <h1>Nasza Strona</h1>
         <nav>
-          <ul>
+           <ul className="header">
             <li>
               <Link to="/Dominik">Dominik</Link>
             </li>
@@ -29,8 +32,8 @@ export default function App() {
           <Route path="/Dominik">
            
           </Route>
-          <Route path="/Bartek">
-           
+          <Route >
+          <Huh/>
           </Route>
           <Route path="/Dawid">
           
