@@ -1,4 +1,5 @@
 import React from "react";
+import Dawid from "Dawid.js";
 import {
   BrowserRouter as Router,
   Switch,
@@ -33,6 +34,7 @@ export default function App() {
            
           </Route>
           <Route path="/Dawid">
+            <Dawid />
           
           </Route>
         </Switch>
