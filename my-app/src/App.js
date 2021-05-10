@@ -1,4 +1,5 @@
 import React from "react";
+import Empty2 from "./abc"
 import {
   BrowserRouter as Router,
   Switch,
@@ -28,13 +29,13 @@ export default function App() {
             renders the first one that matches the current URL. */}
         <Switch>
           <Route path="/about">
-            <About />
+          
           </Route>
           <Route path="/users">
             <Users />
           </Route>
           <Route path="/">
-            <Home />
+            <Empty2></Empty>
           </Route>
         </Switch>
       </div>
@@ -47,7 +48,7 @@ function Home() {
 }
 
 function About() {
-  return <h2>asd</h2>;
+  return <h2>Barburka</h2>;
 }
 
 function Users() {
