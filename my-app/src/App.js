@@ -1,5 +1,5 @@
 import React from "react";
-import Dawid from "Dawid.js";
+import Dawid from "./Dawid.js";
 import {
   BrowserRouter as Router,
   Switch,
