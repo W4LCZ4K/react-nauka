@@ -1,12 +1,57 @@
-.title {
+body {
+  background-color: #ffcc00;
+  padding: 20px;
+  margin: 0;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}ul.header {
+  background-color: #111;
+  padding: 0;
+}
+ul.header li a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+label {
+  font-size: large;
+  text-shadow: 2px 2px 4px blue;
+  line-height: 2.8;
+}
+#menu {
+  background-color: rgb(44, 41, 41);
+  height: 60vh;
+  width: 10%;
+  float: left;
+  color:red;
+  font-size: 23px;
+  margin-top: 1%;
+}
+#header {
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
 }
-.login {
-  position: fixed;
-  right: 50px;
+#container {
+  min-height: 50vh;
+  height: 60vh;
+  width: 90%;
+  float: middle;
+  margin-top: 1%;
+  font-size: 6em;
+  background-color: rgb(3, 3, 3);
 }
-.login1 {
-  position: fixed;
-  right: 50px;
+#footer {
+  clear: both;
+  height: 12vh;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  background-color: rgb(129, 141, 141);
 }

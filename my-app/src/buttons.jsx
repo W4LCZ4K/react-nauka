@@ -5,7 +5,7 @@ import Login from "./login"
 const Click = props => {
     return(
 <div>
-{props.login=prompt("not working")}
+{props.login=prompt("not woasdasdrking")}
 
 
 </div>

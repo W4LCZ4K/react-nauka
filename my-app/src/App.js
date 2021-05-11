@@ -6,13 +6,13 @@ import {
   Link
 } from "react-router-dom";
 import Huh from "./Bartek.js"
-import "./App.css";
+
 
 export default function App() {
   return (
     <Router>
       <div>
-        <h1>Nasza Strona</h1>
+       
         <nav>
            <ul className="header">
             <li>
