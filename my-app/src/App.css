@@ -3,6 +3,7 @@ body {
   padding: 20px;
   margin: 0;
 }
+
 ul.header li {
   display: inline;
   list-style-type: none;
