@@ -3,7 +3,8 @@ import propTypes from "prop-types";
 import "./App.css";
 import "./bartek.css";
 import "./buttons.css"
-import "./buttons.js"
+import Click from "./buttons.jsx";
+import Login from "./login.jsx"
 function Huh (){
     return (<div>
         
@@ -11,8 +12,9 @@ function Huh (){
     Witaj w sklepie!
 </div>
        <div className="login">
-<button className="button">Zaloguj się</button>
-<button className="button">Zarejestruj się</button>
+           
+<Login/>
+<button className="button" onClick={()=>Click()}>Zarejestruj się</button>
 </div>
 
 </div>
