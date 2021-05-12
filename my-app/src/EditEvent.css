@@ -1,0 +1,37 @@
+.edit-event {
+  width: 35%;
+
+  line-height: 50px;
+  margin: auto;
+  margin-top: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.input1 {
+  border: 7px solid rgb(236, 164, 8);
+  margin-top: 9px;
+  float: right;
+  width: 50%;
+  height: 40px;
+}
+
+.but {
+  height: 45px;
+  width: 500px;
+  cursor: pointer;
+  margin: 0 auto;
+  font-size: 1rem;
+  font-weight: bolder;
+  border: none;
+  background: linear-gradient(#f0d435, #fcb722);
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+.butContainer {
+  padding: 15px;
+  margin: 0 auto;
+  text-align: center;
+}
