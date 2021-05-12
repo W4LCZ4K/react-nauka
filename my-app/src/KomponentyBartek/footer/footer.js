@@ -1,4 +1,4 @@
-import "../bartek.css";
+import "../Css/bartek.css";
 
 function Footer() {
     return (

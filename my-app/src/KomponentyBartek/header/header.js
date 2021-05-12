@@ -1,5 +1,4 @@
-import "../bartek.css";
-
+import "../Css/bartek.css";
 function Header() {
     return (
       <div id="header" className="element">
