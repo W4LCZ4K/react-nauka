@@ -1,12 +1,12 @@
 .button {
-  background-color: #3526b9;
-  
+  background-color: transparent;
+
   color: rgb(255, 0, 0);
   padding: 15px 32px;
   text-align: center;
-border-left: palegreen;
+
   font-size: 20px;
 }
 .button:hover {
-  background-color: #0c4406;
+  background-color: #ffffff;
 }

@@ -1,20 +1,13 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-import Huh from "./Bartek.js"
-
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Huh from "./Bartek.js";
 
 export default function App() {
   return (
     <Router>
       <div>
-       
         <nav>
-           <ul className="header">
+          <ul className="header">
             <li>
               <Link to="/Dominik">Dominik</Link>
             </li>
@@ -27,20 +20,14 @@ export default function App() {
           </ul>
         </nav>
 
-      
         <Switch>
-          <Route path="/Dominik">
+          <Route path="/Dominik"></Route>
+          <Route  path="/Dawid">
            
           </Route>
-          <Route >
-          <Huh/>
-          </Route>
-          <Route path="/Dawid">
-          
-          </Route>
+          <Route><Huh/></Route>
         </Switch>
       </div>
     </Router>
   );
 }
-

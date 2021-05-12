@@ -1,25 +1,17 @@
 import react, { Component } from "react";
 import propTypes from "prop-types";
-
-import "./bartek.css";
-import "./buttons.css";
+import "./KomponentyBartek/bartek.css";
+import "./KomponentyBartek/buttons.css";
+import Layout from "./KomponentyBartek/layout/layout.js";
 import Click from "./buttons.jsx";
 import Login from "./login.jsx";
+import Event from "./events.jsx";
 function Huh() {
   return (
     <div>
-      <div id="header">Witaj w sklepie!</div>
-      
-          <div id="menu">
-              <Login/>
-          </div>
-          <div id="container">
-              asa
-          </div>
-          <div id="footer">
-              
-              </div>
-    </div>
+     <Layout/>
+</div>
+    
   );
 }
 export default Huh;
