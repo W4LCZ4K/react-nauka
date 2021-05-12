@@ -1,11 +1,6 @@
 import React from "react";
-import Empty2 from "./abc"
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import Layout from "./layout";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 export default function App() {
   return (
@@ -14,7 +9,7 @@ export default function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/">dominik</Link>
+              <Link to="/dominik">dominik</Link>
             </li>
             <li>
               <Link to="/about">The best</Link>
@@ -28,27 +23,22 @@ export default function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/about">
-          
-          </Route>
+          <Route path="/" exact={true} />
+          <Route path="/about"></Route>
           <Route path="/users">
             <Users />
           </Route>
-          <Route path="/">
-            <Empty2></Empty>
+          <Route path="/dominik" exact={true}>
+            <Layout
+              link1={<Link to="/dominik">dominik</Link>}
+              link2={<Link to="/about">The best</Link>}
+              link3={<Link to="/users">Users</Link>}
+            />
           </Route>
         </Switch>
       </div>
     </Router>
   );
-}
-
-function Home() {
-  return <h2>Home</h2>;
-}
-
-function About() {
-  return <h2>Barburka</h2>;
 }
 
 function Users() {
