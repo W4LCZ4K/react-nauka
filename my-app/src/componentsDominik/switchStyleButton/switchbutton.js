@@ -1,4 +1,4 @@
-import "./componentsDominik.css";
+import "./../componentsDominik.css";
 
 function ChangeStyleButton(props) {
   return (

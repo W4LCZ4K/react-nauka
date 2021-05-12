@@ -1,12 +1,9 @@
 import React from "react";
-import Nav from "./componentsDominik/menu";
-import Header from "./componentsDominik/header";
-import Container from "./componentsDominik/container";
-import Footer from "./componentsDominik/footer";
+import Nav from "../menu/menu";
+import Header from "../header/header";
+import Container from "../container/container";
+import Footer from "../footer/footer";
 import "./layout.css";
-
-import "./Empty2.css";
-
 function Layout(props) {
   return (
     <div id="layout">

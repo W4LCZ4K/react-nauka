@@ -1,5 +1,5 @@
-import "./componentsDominik.css";
-import ChangeStyle from "./switchbutton.js";
+import "./../componentsDominik.css";
+import ChangeStyle from "../switchStyleButton/switchbutton.js";
 
 function Menu(props) {
   return (

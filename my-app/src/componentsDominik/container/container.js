@@ -1,4 +1,4 @@
-import PersonContent from "./personcontent";
+import PersonContent from "../personalcontent/personcontent";
 
 function Container(props) {
   const person = [

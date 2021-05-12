@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "./layout";
+import Layout from "./componentsDominik/layout/layout.js";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 export default function App() {
