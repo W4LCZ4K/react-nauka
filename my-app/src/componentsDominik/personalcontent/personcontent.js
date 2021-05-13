@@ -1,9 +1,8 @@
 function PersonContent(props) {
   return (
     <div>
-      Imie: {props.name}
-      <br></br>
-      Nazwisko: {props.surrname}
+      <strong>Imie: </strong> {props.name} <strong>Nazwisko:</strong>{" "}
+      {props.surrname}
     </div>
   );
 }
