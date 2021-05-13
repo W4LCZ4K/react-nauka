@@ -27,7 +27,7 @@ label {
 }
 #menu {
   background-color: rgb(44, 41, 41);
-  height: 80vh;
+  height: 70vh;
   width: 10%;
   float: left;
   color: red;
@@ -40,11 +40,11 @@ label {
 }
 #container {
   min-height: 50vh;
-  height: 60vh;
+  height: 70vh;
   width: 90%;
   float: middle;
   margin-top: 1%;
-  font-size: 6em;
+  font-size: 1.7em;
   background-color: rgb(3, 3, 3);
   color:red;
   text-align: center;
@@ -53,16 +53,16 @@ label {
   clear: both;
   height: 12vh;
   width: 80%;
-  margin-top: auto;
   margin-right: auto;
   margin-left: auto;
+  margin-top: top;
   text-align: center;
   background-color: rgb(129, 141, 141);
-  font-size: 1.7em;
+  font-size: 1.1em;
 }
 #menu1 {
   background-color: rgb(44, 41, 41);
-  height: 80vh;
+  height: 70vh;
   width: 5%;
   float: left;
   color: red;
