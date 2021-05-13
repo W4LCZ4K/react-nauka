@@ -1,9 +1,10 @@
 import "../Css/bartek.css";
-import Login from"./login.jsx"
+import Bar from"./sidebar.jsx"
 function Menu() {
     return (
-      <div id="menu" >
-       <Login/>
+      <div  >
+       
+        <Bar/>
       </div>
     );
   }

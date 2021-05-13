@@ -1,8 +1,9 @@
 import "../Css/bartek.css";
+import Login from "./login.jsx"
 function Header() {
     return (
       <div id="header" className="element">
-        Witaj w naszym sklepie!
+        <Login />
       </div>
     );
   }
