@@ -4,7 +4,7 @@ import Header from "../header/header";
 import Container from "../container/container.jsx";
 import Footer from "../footer/footer";
 
-function Layout() {
+function LayoutB() {
     return (
         <div>
             <Header></Header>
@@ -14,4 +14,4 @@ function Layout() {
         </div>
     );
 }
-export default Layout;
+export default LayoutB;

@@ -1,0 +1,47 @@
+.element {
+  background-color: white;
+  border-radius: 70px;
+  padding: 15px;
+  border-style: solid;
+  border-color: blue;
+  border-width: 5px;
+}
+label {
+  font-size: large;
+  text-shadow: 2px 2px 4px blue;
+  line-height: 2.8;
+}
+#menu {
+  height: 70vh;
+  width: 20%;
+  margin-left: 3%;
+  float: left;
+}
+#header {
+  height: 15vh;
+  line-height: 1.8;
+  width: 65%;
+  float: right;
+  margin-right: 3%;
+  text-align: center;
+  font-size: 4em;
+}
+#container {
+  min-height: 50vh;
+  width: 65%;
+  float: right;
+  margin-right: 3%;
+  margin-top: 1%;
+  margin-bottom: 10px;
+  line-height: 2;
+  font-size: 2em;
+}
+#footer {
+  clear: both;
+  height: 5vh;
+  width: 60vw;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  text-shadow: 2px 2px 4px blueviolet;
+}
