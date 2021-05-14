@@ -1,12 +1,13 @@
 import PersonContent from "../personalcontent/personcontent";
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import uniqid from "uniqid";
 
 function Container(props) {
   const flist = [
-    { imie: "Jan", nazwisko: "Kowalski" },
-    { imie: "Robert", nazwisko: "Lewandowski" },
-    { imie: "Adam", nazwisko: "Kowalski" },
-    { imie: "Jan", nazwisko: "Lewandowski" },
+    { id: uniqid(), imie: "Jan", nazwisko: "Kowalski" },
+    { id: uniqid(), imie: "Robert", nazwisko: "Lewandowski" },
+    { id: uniqid(), imie: "Adam", nazwisko: "Kowalski" },
+    { id: uniqid(), imie: "Jan", nazwisko: "Lewandowski" },
   ];
 
   const [person, setPerson] = useState(flist);
@@ -28,12 +29,7 @@ function Container(props) {
     }
   }
   var osoby = person.map((osoba) => (
-    <div>
-      <PersonContent
-        name={osoba.imie}
-        surrname={osoba.nazwisko}
-      ></PersonContent>
-    </div>
+    <PersonContent key={osoba.id} name={osoba.imie} surrname={osoba.nazwisko} />
   ));
   return (
     <div className="element" id="container">
