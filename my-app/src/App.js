@@ -1,10 +1,6 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import Layout from "./componentsDominik/layout/layout.js";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 export default function App() {
   return (
@@ -13,7 +9,11 @@ export default function App() {
         <nav>
           <ul>
             <li>
+<<<<<<< HEAD
               <Link to="/Dominik">Dominik</Link>
+=======
+              <Link to="/dominik">dominik</Link>
+>>>>>>> feature/add-new-page-Dominik
             </li>
             <li>
               <Link to="/Bartek">Bartek</Link>
@@ -26,6 +26,7 @@ export default function App() {
 
       
         <Switch>
+<<<<<<< HEAD
           <Route path="/Dominik">
            
           </Route>
@@ -34,6 +35,19 @@ export default function App() {
           </Route>
           <Route path="/Dawid">
           
+=======
+          <Route path="/" exact={true} />
+          <Route path="/about"></Route>
+          <Route path="/users">
+            <Users />
+          </Route>
+          <Route path="/dominik" exact={true}>
+            <Layout
+              link1={<Link to="/dominik">dominik</Link>}
+              link2={<Link to="/about">The best</Link>}
+              link3={<Link to="/users">Users</Link>}
+            />
+>>>>>>> feature/add-new-page-Dominik
           </Route>
         </Switch>
       </div>
@@ -41,3 +55,9 @@ export default function App() {
   );
 }
 
+<<<<<<< HEAD
+=======
+function Users() {
+  return <h2>asdsas</h2>;
+}
+>>>>>>> feature/add-new-page-Dominik

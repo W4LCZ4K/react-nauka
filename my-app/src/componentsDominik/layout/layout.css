@@ -1,0 +1,8 @@
+body {
+  background-color: gray;
+}
+#layout {
+  width: 100%;
+  min-height: 500px;
+  margin: auto;
+}
