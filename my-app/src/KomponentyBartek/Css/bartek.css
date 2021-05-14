@@ -1,71 +1,70 @@
 body {
-  background-color: #ffcc00;
-  padding: 20px;
-  margin: 0;
+    background-color: #ffcc00;
+    padding: 20px;
+    margin: 0;
 }
 ul.header li {
-  display: inline;
-  list-style-type: none;
-  margin: 0;
+    display: inline;
+    list-style-type: none;
+    margin: 0;
 }
 ul.header {
-  background-color: #111;
-  padding: 0;
+    background-color: #111;
+    padding: 0;
 }
 ul.header li a {
-  color: #fff;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 20px;
-  display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
 }
 
 label {
-  font-size: large;
-  text-shadow: 2px 2px 4px blue;
-  line-height: 2.8;
+    font-size: large;
+    text-shadow: 2px 2px 4px blue;
+    line-height: 2.8;
 }
-#menu {
-  background-color: rgb(44, 41, 41);
-  height: 70vh;
-  width: 10%;
-  float: left;
-  color: red;
-  font-size: 23px;
-  margin-top: 1%;
+#menuShow {
+    background-color: rgb(44, 41, 41);
+    height: 70vh;
+    width: 10%;
+    float: left;
+    color: red;
+    font-size: 23px;
+    margin-top: 1%;
 }
 #header {
-  text-align: center;
-  font-size: 60px;
+    text-align: center;
+    font-size: 60px;
 }
 #container {
-  min-height: 50vh;
-  height: 70vh;
-  width: 90%;
-  float: middle;
-  margin-top: 1%;
-  font-size: 1.7em;
-  background-color: rgb(3, 3, 3);
-  color:red;
-  text-align: center;
+    min-height: 50vh;
+    height: 70vh;
+    width: 90%;
+    float: middle;
+    margin-top: 1%;
+    font-size: 1.7em;
+    background-color: rgb(3, 3, 3);
+    color: red;
+    text-align: center;
 }
 #footer {
-  clear: both;
-  height: 12vh;
-  width: 80%;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: top;
-  text-align: center;
-  background-color: rgb(129, 141, 141);
-  font-size: 1.1em;
+    clear: both;
+    height: 12vh;
+    width: 90%;
+    margin-right: auto;
+    margin-top: top;
+    text-align: center;
+    background-color: rgb(129, 141, 141);
+    font-size: 1.1em;
 }
-#menu1 {
-  background-color: rgb(44, 41, 41);
-  height: 70vh;
-  width: 5%;
-  float: left;
-  color: red;
-  font-size: 23px;
-  margin-top: 1%;
+#menuHidden {
+    background-color: rgb(44, 41, 41);
+    height: 70vh;
+    width: 5%;
+    float: left;
+    color: red;
+    font-size: 23px;
+    margin-top: 1%;
 }

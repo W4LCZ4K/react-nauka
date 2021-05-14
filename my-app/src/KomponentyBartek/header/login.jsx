@@ -1,23 +1,21 @@
-import react, { Component, useState } from "react";
-
-import propTypes from "prop-types";
+import react, { useState } from "react";
 
 function Login() {
-  const [isLogin, setIsLogin] = useState(false);
+    const [isLogin, setIsLogin] = useState(false);
 
-  return (
-    <div>
-      {isLogin ? (
-        <button className="button" onClick={() => setIsLogin(false)}>
-          Wyloguj się
-        </button>
-      ) : (
-        <button className="button" onClick={() => setIsLogin(true)}>
-          Zaloguj się
-        </button>
-      )}
-    </div>
-  );
+    return (
+        <div>
+            {isLogin ? (
+                <button className="button" onClick={() => setIsLogin(false)}>
+                    Wyloguj się
+                </button>
+            ) : (
+                <button className="button" onClick={() => setIsLogin(true)}>
+                    Zaloguj się
+                </button>
+            )}
+        </div>
+    );
 }
 export default Login;
 

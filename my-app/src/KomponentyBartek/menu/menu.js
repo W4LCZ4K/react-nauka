@@ -1,12 +1,10 @@
 import "../Css/bartek.css";
-import Bar from"./sidebar.jsx"
+import Bar from "./sidebar.jsx";
 function Menu() {
     return (
-      <div  >
-       
-        <Bar/>
-      </div>
+        <div>
+            <Bar />
+        </div>
     );
-  }
-  export default Menu;
-  
+}
+export default Menu;
